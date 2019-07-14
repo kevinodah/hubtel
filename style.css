@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  backgrounnd: #0a223c;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+}
+#container{
+  width: 1150px;  
+  margin: 0 auto;
+}
+ h1#logo{
+  background-image: url("/img/hubtel.png");
+  background-size: 100%;
+  width: 110px;
+  height: 31.25px;
+  text-indent: -9999px;
+  position: relative;
+  top: 21px;
+}
+.top-header-nav li{
+  display: inline;
+  position: relative;
+  left: 135px;
+  font-size: 12px;
+  bottom: 3px;
+}
+.top-header-nav li a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 100%;
+  padding: 0 20px 0 0;
+}
+h1.mall{
+  background: url("/img/mall.png") top left no-repeat;
+  text-indent: -9999px;
+  width: 66px;
+  height: 26.5;
+  background-size: 83%;
+  position: relative;
+  left: 490px;
+  bottom: 23px;
+}
+.log li{
+  display: inline;
+  position: relative;
+  left: 900px;
+  bottom: 40px;
+  margin: 0 12px 0  0;
+}
+.log li a{
+  color: #333;
+  text-decoration: none;
+}
+.btn-log{
+  background: #23ccaa;
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+}
+.log .btn-log a{
+  color: white;
+}
+.btn-log:hover{
+  background: #279781;
+}
+.log .btn-nn a{
+  color: #aaa;
+  font-size: 17px;
+}
+.wlk{
+  font-weight: 400px;
+  font-size: 25px;
+  padding:  0 20px 20px;
+  letter-spacing: 2px;
+}
+form h5{
+  font-size: 17px;
+  color: #333;
+  font-weight: bold;
+  padding: 0 150px;;
+
+}
+form .app-str, .an-str{
+  display: inline;
+}
+h1.app-str{
+  background: url('/img/app-store.png') top left no-repeat;
+  width: 150px;
+  height: 50px;
+  background-size: 90%;
+  color: rgba(255, 0, 0, 0);
+  padding: 10px;
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+h1.an-str{
+  background: url('/img/play-store.png') top left no-repeat;
+  width: 150px;
+  height: 50px;
+  background-size: 90%;
+  color: rgba(255, 0, 0, 0);
+  padding: 10px;
+  position: relative;
+  left: 90px;
+  top: 30px;
+}
+form p{
+  color: #ccc;
+  font-size: 15px;
+  position: relative;
+  left: 223px;
+  top: 40px;
+  height: 100px;
+}
+form label{
+  color: black;
+  position: relative;
+  left: 95px;
+
+}
+
+input [type = "text"]{
+  display: inline;
+}
